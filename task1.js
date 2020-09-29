@@ -17,7 +17,7 @@ const keys = Object.keys(user);
 // Write code under this line
 let key = '';
 for ( key of keys) {
-  message = 'key + ':' + user[key] + '\n'';
+  message += key + ':' + user[key] + '\n';
 }
 
 
